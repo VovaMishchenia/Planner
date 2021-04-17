@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.plannerapp"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -43,5 +43,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
     implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.0'
+    // https://mvnrepository.com/artifact/androidx.cardview/cardview
+    implementation 'androidx.cardview:cardview:1.0.0'
 
 }
